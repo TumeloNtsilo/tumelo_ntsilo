@@ -1,7 +1,28 @@
-html, body {
+html,
+body {
     height: 100%;
     margin: 0;
     padding: 0;
     background-color: black;
-    color: white; /* optional, so text is visible */
+    color: white;
+    /* optional, so text is visible */
+}
+
+.intro {
+    border-bottom: 2px solid white;
+    padding: 5px;
+    box-shadow: 0 0 5px 2px white;
+}
+
+.about {
+    padding: 6px;
+}
+
+
+img {
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+  border: 10px solid white;
+  border-radius: 50%;
 }
