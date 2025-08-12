@@ -16,13 +16,31 @@ body {
 
 .about {
     padding: 6px;
+    padding-top: 20px;
 }
 
+.bio {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.bio .bio_text {
+    width: 60%;
+}
+
+.bio .img {
+   width: 40%; 
+}
 
 img {
-  width: 240px;
-  height: 240px;
-  object-fit: cover;
-  border: 10px solid white;
-  border-radius: 50%;
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+    border: 3px solid white;
+    box-shadow: 0 0 5px 2px white;
+    border-radius: 50%;
+
+
 }
