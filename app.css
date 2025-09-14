@@ -8,22 +8,22 @@ body {
     /* optional, so text is visible */
 }
 
-.intro {
+/* .intro {
     border-bottom: 2px solid white;
     padding: 5px;
     box-shadow: 0 0 5px 2px white;
-}
+} */
 
-.about {
+.intro {
     padding: 6px;
     padding-top: 20px;
 }
 
 .bio {
-    
+
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content: space-around;
 }
 
 .bio .bio_text {
@@ -31,7 +31,7 @@ body {
 }
 
 .bio .img {
-   width: 40%; 
+    width: 40%;
 }
 
 img {
@@ -42,5 +42,57 @@ img {
     box-shadow: 0 0 5px 2px white;
     border-radius: 50%;
 
+}
 
+.tumi {
+    padding-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.school {
+    width: 50%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: black;
+    border: 2px solid white;
+    box-shadow: 0 0 2px 2px white
+}
+
+.skills {
+    width: 50%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: black;
+    border: 2px solid white;
+    box-shadow: 0 0 2px 2px white;
+
+
+}
+
+.skills div {
+    width: 85px;
+    height: 85px;
+    margin: 8px;
+    color: black;
+    background-color: white;
+    border: 3px solid white;
+    box-shadow: 0 0 2px 2px white;
+
+}
+
+.navbar {
+    margin-bottom: 25px;
+    border-bottom: 4px solid white;
+    box-shadow: 0 0 8px white;
+}
+
+.name {
+    width: 100%;
+    height: 800px;
 }
