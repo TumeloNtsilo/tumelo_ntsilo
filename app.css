@@ -5,94 +5,36 @@ body {
     padding: 0;
     background-color: black;
     color: white;
-    /* optional, so text is visible */
 }
 
-/* .intro {
-    border-bottom: 2px solid white;
-    padding: 5px;
-    box-shadow: 0 0 5px 2px white;
-} */
-
-.intro {
-    padding: 6px;
-    padding-top: 20px;
-}
-
-.bio {
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.bio .bio_text {
-    width: 60%;
-}
-
-.bio .img {
-    width: 40%;
-}
-
-img {
-    width: 240px;
-    height: 240px;
-    object-fit: cover;
-    border: 3px solid white;
-    box-shadow: 0 0 5px 2px white;
-    border-radius: 50%;
-
-}
-
-.tumi {
-    padding-top: 25px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.school {
-    width: 50%;
-    height: 200px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color: black;
-    border: 2px solid white;
-    box-shadow: 0 0 2px 2px white
-}
-
-.skills {
-    width: 50%;
-    height: 200px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color: black;
-    border: 2px solid white;
-    box-shadow: 0 0 2px 2px white;
-
-
-}
-
-.skills div {
-    width: 85px;
-    height: 85px;
-    margin: 8px;
+.nav_bar{
+    background-color: #ffffff;
     color: black;
-    background-color: white;
-    border: 3px solid white;
-    box-shadow: 0 0 2px 2px white;
-
-}
-
-.navbar {
-    margin-bottom: 25px;
-    border-bottom: 4px solid white;
-    box-shadow: 0 0 8px white;
-}
-
-.name {
     width: 100%;
-    height: 800px;
+    height: 60px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.nav_bar p{
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+
+.links{
+    display: flex;
+    list-style: none;
+    gap:5px;
+    padding-right: 10px;
+}
+
+.links a {
+    text-decoration: none;
+    color:black;
+}
+
+
+
+
