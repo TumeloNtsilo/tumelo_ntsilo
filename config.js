@@ -1,9 +1,6 @@
-tailswind.config = {
-    theme: {
-        extend: {
-            fontFamily: {
-                agbalumo: ['Agbalumo', 'Playfair Display SC', 'sans-serif']
-            }
-        }
-    }
-}
+const hamburger = document.getElementById("hamburger");
+const links = document.getElementById("links");
+
+hamburger.addEventListener("click", () => {
+    links.classList.toggle("active");
+});
