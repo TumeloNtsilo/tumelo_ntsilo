@@ -6,13 +6,18 @@ body {
     color: white;
 }
 
+.hamburger {
+    margin-left: 200px;
+    cursor: pointer;
+}
+
 .hamburger span {
     display: block;
     width: 25px;
     height: 3px;
     background: black;
     margin: 5px 0;
-    cursor: pointer;
+
 }
 
 .nav_bar {
@@ -23,11 +28,14 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .nav_bar p {
     padding-left: 10px;
     font-size: 15px;
+    position: relative;
+    z-index: 1000;
 }
 
 .links {
@@ -36,9 +44,24 @@ body {
 
 .links.active {
     display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 100px;
+    background: white;
+    padding: 15px 0;
+    gap: 15px;
     list-style: none;
-    gap: 8px;
-    padding-right: 10px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    z-index: 1001;
+    border-radius: 5px;
+    text-decoration: underline;
+}
+
+.links.active a:hover{
+    background-color: aqua;
 }
 
 .links a {
