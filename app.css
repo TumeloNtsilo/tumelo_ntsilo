@@ -103,11 +103,28 @@ body {
 /* main */
 .intro {
   width: 80%;
-  height: 80%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
   background-color: rgba(30, 30, 30, 0.9);
   border-radius: 15px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
   margin: auto;
   position: relative;
-  top: 10%;
+  top: 50px;
+}
+
+.firstName {
+  font-size: 70px;
+  margin: 0px;
+}
+
+.lastName {
+  font-size: 90px;
+  margin-top: -10px;
+}
+
+.title {
+  margin-top: -100px;
+  font-size: 12px;
 }
