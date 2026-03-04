@@ -167,7 +167,7 @@ html {
   text-align: center;
 }
 
-img {
+.home img {
   width: 240px;
   height: 240px;
   object-fit: cover;
@@ -323,4 +323,27 @@ h2 {
 .experience-item p {
   margin: 8px 0;
   font-size: 14px;
+}
+
+.projects {
+  width: 92%;
+  margin: auto;
+}
+
+.project {
+  width: 92%;
+  margin: auto;
+  border: solid 1px black;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  background: rgba(249, 251, 252, 0.7);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12);
+  backdrop-filter: blur(6px);
+
+}
+
+
+.project img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
 }
