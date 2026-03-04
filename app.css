@@ -77,7 +77,7 @@ html {
   position: absolute;
   top: 50%;
   right: 0;
-  width: 100px;
+  width: 130px;
   background: white;
   padding: 15px 0;
   gap: 15px;
@@ -220,6 +220,7 @@ html {
   margin: auto;
   display: flex;
   flex-direction: column;
+  margin-top: 20px;
 }
 
 h2 {
@@ -233,6 +234,10 @@ h2 {
   -webkit-text-fill-color: transparent;
   font-size: 30px;
   border-bottom: solid 1px black;
+}
+
+.skills {
+  margin-top: 40px;
 }
 
 .technical {
@@ -291,6 +296,7 @@ h2 {
 .experience {
   width: 92%;
   margin: auto;
+  margin-top: 40px;
   padding: 20px 0;
   text-align: left;
 }
