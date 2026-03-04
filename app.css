@@ -3,7 +3,16 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  color: white;
+  background: #ffffff;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(224, 225, 221, 1) 50%,
+    rgba(229, 229, 229, 1) 100%
+  );
+}
+* {
+  box-sizing: border-box;
 }
 
 html {
@@ -41,10 +50,12 @@ html {
   font-size: 15px;
   position: relative;
   z-index: 1000;
-  background: linear-gradient(90deg,
-      rgba(232, 93, 4, 1) 0%,
-      rgba(244, 140, 6, 1) 50%,
-      rgba(255, 186, 8, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(232, 93, 4, 1) 0%,
+    rgba(244, 140, 6, 1) 50%,
+    rgba(255, 186, 8, 1) 100%
+  );
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -90,10 +101,12 @@ html {
   width: 100%;
   height: 90%;
   background: #ffffff;
-  background: linear-gradient(90deg,
-      rgba(255, 255, 255, 1) 0%,
-      rgba(224, 225, 221, 1) 50%,
-      rgba(229, 229, 229, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(224, 225, 221, 1) 50%,
+    rgba(229, 229, 229, 1) 100%
+  );
   border-radius: 30px 30px 0px 0px;
 }
 
@@ -118,7 +131,12 @@ html {
 .firstName {
   font-size: 70px;
   margin: 0px;
-  background: linear-gradient(90deg, rgba(232, 93, 4, 1) 0%, rgba(244, 140, 6, 1) 9%, rgba(255, 186, 8, 1) 59%);
+  background: linear-gradient(
+    90deg,
+    rgba(232, 93, 4, 1) 0%,
+    rgba(244, 140, 6, 1) 9%,
+    rgba(255, 186, 8, 1) 59%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
@@ -127,10 +145,12 @@ html {
 .lastName {
   font-size: 90px;
   margin-top: -10px;
-  background: linear-gradient(90deg,
-      rgba(232, 93, 4, 1) 0%,
-      rgba(244, 140, 6, 1) 50%,
-      rgba(255, 186, 8, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(232, 93, 4, 1) 0%,
+    rgba(244, 140, 6, 1) 50%,
+    rgba(255, 186, 8, 1) 100%
+  );
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -153,7 +173,6 @@ img {
   border-radius: 50%;
   display: block;
   margin: 20px auto;
-
 }
 
 .button-line {
@@ -166,11 +185,12 @@ img {
   height: 1px;
   margin-right: 30px;
   margin-top: 100px;
-  background: linear-gradient(90deg,
-      rgba(232, 93, 4, 1) 0%,
-      rgba(244, 140, 6, 1) 50%,
-      rgba(255, 186, 8, 1) 100%);
-
+  background: linear-gradient(
+    90deg,
+    rgba(232, 93, 4, 1) 0%,
+    rgba(244, 140, 6, 1) 50%,
+    rgba(255, 186, 8, 1) 100%
+  );
 }
 
 .contactButton {
@@ -181,18 +201,82 @@ img {
   margin-right: 5%;
   border-radius: 25px;
   border: none;
-  background: linear-gradient(90deg,
-      rgba(232, 93, 4, 1) 0%,
-      rgba(244, 140, 6, 1) 50%,
-      rgba(255, 186, 8, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(232, 93, 4, 1) 0%,
+    rgba(244, 140, 6, 1) 50%,
+    rgba(255, 186, 8, 1) 100%
+  );
 }
 
-.about, .projects, .contact {
+.about,
+.projects,
+.contact {
   color: black;
   width: 80%;
   text-align: center;
   margin: auto;
   display: flex;
   flex-direction: column;
+}
 
+h2 {
+  background: linear-gradient(
+    90deg,
+    rgba(232, 93, 4, 1) 0%,
+    rgba(244, 140, 6, 1) 50%,
+    rgba(255, 186, 8, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 30px;
+  border-bottom: solid 1px black;
+}
+
+.technical {
+  width: 92%;
+  height: 260px;
+  margin: auto;
+  border: solid 1px black;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  background: rgba(249, 251, 252, 0.7);
+  backdrop-filter: blur(8px);
+  
+}
+
+.technical button {
+  width: 80px;
+  height: 40px;
+  border-radius: 15px;
+  border: none;
+  background: linear-gradient(
+    90deg,
+    rgba(232, 93, 4, 1) 0%,
+    rgba(244, 140, 6, 1) 50%,
+    rgba(255, 186, 8, 1) 100%
+  );
+}
+
+.skillsButtons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.softSkills {
+  width: 92%;
+  margin:auto;
+  margin-top: 30px;
+  border-radius: 15px;
+  padding: 0;
+  border: solid 1px black;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  background: rgba(249, 251, 252, 0.7);
+  backdrop-filter: blur(8px);
+}
+
+.softSkills li {
+  list-style: none;
+  padding-left: 0;
 }
