@@ -220,7 +220,7 @@ html {
   margin: auto;
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 h2 {
@@ -237,7 +237,7 @@ h2 {
 }
 
 .skills {
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 .technical {
@@ -296,7 +296,7 @@ h2 {
 .experience {
   width: 92%;
   margin: auto;
-  margin-top: 40px;
+  margin-top: 80px;
   padding: 20px 0;
   text-align: left;
 }
