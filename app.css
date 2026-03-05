@@ -195,10 +195,9 @@ html {
   );
 }
 
-.contactButton {
+.contactButton, .cv{
   width: 150px;
   height: 50px;
-  margin-top: 100px;
   margin-left: 10%;
   margin-right: 5%;
   border-radius: 25px;
@@ -209,6 +208,13 @@ html {
     rgba(244, 140, 6, 1) 50%,
     rgba(255, 186, 8, 1) 100%
   );
+  cursor: pointer;
+}
+
+.contactLink {
+  margin-top: 100px;
+  margin-left: 10%;
+  margin-right: 5%;
 }
 
 .about,
